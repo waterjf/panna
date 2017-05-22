@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DLL Debug|Win32">
+      <Configuration>DLL Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL Release|Win32">
+      <Configuration>DLL Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\pnEditor.cpp" />
+    <ClCompile Include=".\pnEditorFrame.cpp" />
+    <ClCompile Include="pnEditorCanvas.cpp" />
+    <ClCompile Include=".\precomp.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include=".\pxCanvas.cpp" />
+    <ClCompile Include=".\pxCanvasWx2D.cpp" />
+    <ClCompile Include=".\pxCanvasWx2DEx.cpp" />
+    <ClCompile Include=".\pxShapeAnimator.cpp" />
+    <ClCompile Include=".\pxShapeArc.cpp" />
+    <ClCompile Include=".\pxShapeBase.cpp" />
+    <ClCompile Include=".\pxShapeEllipse.cpp" />
+    <ClCompile Include=".\pxShapeImg.cpp" />
+    <ClCompile Include=".\pxShapeIOStream.cpp" />
+    <ClCompile Include="pnEditorChildFrame.cpp" />
+    <ClCompile Include="pnToolBox.cpp" />
+    <ClCompile Include="pnUndoRedo.cpp" />
+    <ClCompile Include="pxShapeConnectedLines.cpp" />
+    <ClCompile Include="pxShapeLineSec.cpp" />
+    <ClCompile Include=".\pxShapeText.cpp" />
+    <ClCompile Include="pnShapeEditorModel.cpp" />
+    <ClCompile Include="pnShapeEditorView.cpp" />
+    <ClCompile Include="pnShapeModel.cpp" />
+    <ClCompile Include="pnShapeView.cpp" />
+    <ClCompile Include="px2DGeometry.cpp" />
+    <ClCompile Include="pxFileIOStream.cpp" />
+    <ClCompile Include="pxMemIOStream.cpp" />
+    <ClCompile Include="pxPowerUtilityACLine.cpp" />
+    <ClCompile Include="pxPowerUtilityBase.cpp" />
+    <ClCompile Include="pxPowerUtilityBreaker.cpp" />
+    <ClCompile Include="pxPowerUtilityBus.cpp" />
+    <ClCompile Include="pxPowerUtilityConductor.cpp" />
+    <ClCompile Include="pxPowerUtilityDisconnector.cpp" />
+    <ClCompile Include="pxPowerUtilityLoadSwitch.cpp" />
+    <ClCompile Include="pxPowerUtilitySwitchBase.cpp" />
+    <ClCompile Include="pxPowerUtilityTransformer.cpp" />
+    <ClCompile Include="pxShapeBezier.cpp" />
+    <ClCompile Include="pxShapeFactory.cpp" />
+    <ClCompile Include="pxShapeGroup.cpp" />
+    <ClCompile Include="pxShapePool.cpp" />
+    <ClCompile Include="pxShapePropery.cpp" />
+    <ClCompile Include="pxShapeRect.cpp" />
+    <ClCompile Include="flxArray.cpp" />
+    <ClCompile Include="rc.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\pnEditorFrame.h" />
+    <ClInclude Include="pnEditorCanvas.h" />
+    <ClInclude Include=".\precomp.h" />
+    <ClInclude Include=".\pxAdapter.h" />
+    <ClInclude Include=".\pxCanvas.h" />
+    <ClInclude Include=".\pxCanvasWx2D.h" />
+    <ClInclude Include=".\pxCanvasWx2DEx.h" />
+    <ClInclude Include=".\pxDef.h" />
+    <ClInclude Include=".\pxShapeAnimator.h" />
+    <ClInclude Include=".\pxShapeArc.h" />
+    <ClInclude Include=".\pxShapeBase.h" />
+    <ClInclude Include=".\pxShapeEllipse.h" />
+    <ClInclude Include=".\pxShapeImg.h" />
+    <ClInclude Include=".\pxShapeIOStream.h" />
+    <ClInclude Include="pnEditorChildFrame.h" />
+    <ClInclude Include="pnEditorControlID.h" />
+    <ClInclude Include="pnToolBox.h" />
+    <ClInclude Include="pnUndoRedo.h" />
+    <ClInclude Include="pxShapeConnectedLines.h" />
+    <ClInclude Include="pxShapeLineSec.h" />
+    <ClInclude Include=".\pxShapeText.h" />
+    <ClInclude Include="flxPool.h" />
+    <ClInclude Include="pnShapeEditorModel.h" />
+    <ClInclude Include="pnShapeEditorView.h" />
+    <ClInclude Include="pnShapeModel.h" />
+    <ClInclude Include="pnShapeView.h" />
+    <ClInclude Include="px2DGeometry.h" />
+    <ClInclude Include="pxFileIOStream.h" />
+    <ClInclude Include="pxMemIOStream.h" />
+    <ClInclude Include="pxPowerUtilityACLine.h" />
+    <ClInclude Include="pxPowerUtilityBase.h" />
+    <ClInclude Include="pxPowerUtilityBreaker.h" />
+    <ClInclude Include="pxPowerUtilityBus.h" />
+    <ClInclude Include="pxPowerUtilityConductor.h" />
+    <ClInclude Include="pxPowerUtilityDisconnector.h" />
+    <ClInclude Include="pxPowerUtilityLoadSwitch.h" />
+    <ClInclude Include="pxPowerUtilitySwitchBase.h" />
+    <ClInclude Include="pxPowerUtilityTransformer.h" />
+    <ClInclude Include="pxShapeBezier.h" />
+    <ClInclude Include="pxShapeFactory.h" />
+    <ClInclude Include="pxShapeGroup.h" />
+    <ClInclude Include="pxShapePool.h" />
+    <ClInclude Include="pxShapePropery.h" />
+    <ClInclude Include="pxShapeRect.h" />
+    <ClInclude Include="rc.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <ProjectGuid>{DAAC3B73-BFFA-4CB3-8D00-6670D2435B6F}</ProjectGuid>
+    <ProjectName>pnEditor</ProjectName>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
+    <OutDir>.\</OutDir>
+    <IntDir>.\vc_mswuddll\pnEditor\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CustomBuildBeforeTargets>
+    </CustomBuildBeforeTargets>
+    <CustomBuildAfterTargets>
+    </CustomBuildAfterTargets>
+    <PreBuildEventUseInBuild>false</PreBuildEventUseInBuild>
+    <ExecutablePath>$(VC_ExecutablePath_x86);$(WindowsSDK_ExecutablePath);$(VS_ExecutablePath);$(MSBuild_ExecutablePath);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
+    <OutDir>.\vc_mswunivudll\</OutDir>
+    <IntDir>.\vc_mswunivudll\pnEditor\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\vc_mswunivu\</OutDir>
+    <IntDir>.\vc_mswunivu\pnEditor\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\vc_mswunivud\</OutDir>
+    <IntDir>.\vc_mswunivud\pnEditor\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>.\..\util\wxWidgets\lib\vc_dll\mswud;.\..\util\wxWidgets\include;.%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswuddll\pnEditor\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\vc_mswuddll\pnEditor\pnEditor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\vc_mswuddll\pnEditor\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswuddll\pnEditor.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\vc_mswunivuddll\pnEditor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_dll\mswunivud;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\vc_mswunivuddll\pnEditor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>pnEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>.\..\util\wxWidgets\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmsw31ud_aui.lib;wxmsw31ud_html.lib;wxmsw31ud_adv.lib;wxmsw31ud_core.lib;wxbase31ud_xml.lib;wxbase31ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;wxmsw31ud_propgrid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <CustomBuildStep>
+      <Command>
+      </Command>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Outputs>
+      </Outputs>
+    </CustomBuildStep>
+    <CustomBuildStep>
+      <Inputs>
+      </Inputs>
+      <TreatOutputAsContent>
+      </TreatOutputAsContent>
+    </CustomBuildStep>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_dll\mswunivu;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivudll\pnEditor\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\vc_mswunivudll\pnEditor\pnEditor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\vc_mswunivudll\pnEditor\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivudll\pnEditor.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /opt:ref /opt:icf /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\vc_mswunivudll\pnEditor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_dll\mswunivu;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;WXUSINGDLL;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\vc_mswunivudll\pnEditor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>vc_mswunivudll\pnEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>.\.\.\lib\vc_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmswuniv29u_aui.lib;wxmswuniv29u_html.lib;wxmswuniv29u_adv.lib;wxmswuniv29u_core.lib;wxbase29u_xml.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_lib\mswunivu;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivu\pnEditor\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\vc_mswunivu\pnEditor\pnEditor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\vc_mswunivu\pnEditor\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivu\pnEditor.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /opt:ref /opt:icf /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\vc_mswunivu\pnEditor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_lib\mswunivu;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>__WXMSW__;__WXUNIVERSAL__;NDEBUG;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\vc_mswunivu\pnEditor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>vc_mswunivu\pnEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>.\.\.\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmswuniv29u_aui.lib;wxmswuniv29u_html.lib;wxmswuniv29u_adv.lib;wxmswuniv29u_core.lib;wxbase29u_xml.lib;wxbase29u.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxzlib.lib;wxregexu.lib;wxexpat.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level4</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_lib\mswunivud;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\vc_mswunivud\pnEditor\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\vc_mswunivud\pnEditor\pnEditor.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\vc_mswunivud\pnEditor\</ObjectFileName>
+      <ProgramDataBaseFileName>vc_mswunivud\pnEditor.pdb</ProgramDataBaseFileName>
+      <AdditionalOptions> /EHsc </AdditionalOptions>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>WIN32;_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\vc_mswunivud\pnEditor.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <AdditionalIncludeDirectories>.\.\.\lib\vc_lib\mswunivud;.\.\.\include;.;.\.\.\samples;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_DEBUG;__WXMSW__;__WXUNIVERSAL__;_UNICODE;_WINDOWS;NOPCH;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\vc_mswunivud\pnEditor.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>vc_mswunivud\pnEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>.\.\.\lib\vc_lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>wxmswuniv29ud_aui.lib;wxmswuniv29ud_html.lib;wxmswuniv29ud_adv.lib;wxmswuniv29ud_core.lib;wxbase29ud_xml.lib;wxbase29ud.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxzlibd.lib;wxregexud.lib;wxexpatd.lib;winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;wininet.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

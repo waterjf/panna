@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pxShape">
+      <UniqueIdentifier>{ca122722-000b-49a2-8988-b80faaaf3fa1}</UniqueIdentifier>
+      <Extensions>pxShape</Extensions>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{2f762a4f-d773-4117-8b38-aaf8b9309db3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MVC">
+      <UniqueIdentifier>{c00aa013-6db6-4dca-9de9-1cf469a31d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pxShape\pxPowerUtilityShape">
+      <UniqueIdentifier>{664ac723-c8de-4c52-99c8-c05796c62759}</UniqueIdentifier>
+      <Extensions>pxPowerUtility*</Extensions>
+    </Filter>
+    <Filter Include="pxShape\pxShapes">
+      <UniqueIdentifier>{bf0a7e98-81e1-4868-9c6a-40ca038b974b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pxShape\GDI">
+      <UniqueIdentifier>{e4d2ac0a-0353-4da3-b6a4-b70a1ad79c99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{9bbc9973-79ab-4f7d-b842-e79134799aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pxShapeProperty">
+      <UniqueIdentifier>{51775bfe-5df9-47fb-9e53-88e4d5475cf7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include=".\precomp.cpp" />
+    <ClCompile Include=".\pnEditor.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pnEditorFrame.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pnShapeModel.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="pnShapeView.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="pnShapeEditorModel.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="pnShapeEditorView.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityBus.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityConductor.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilitySwitchBase.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityBreaker.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityDisconnector.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityLoadSwitch.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityBase.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityACLine.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pxPowerUtilityTransformer.cpp">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeBase.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxCanvas.cpp">
+      <Filter>pxShape\GDI</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxCanvasWx2D.cpp">
+      <Filter>pxShape\GDI</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxCanvasWx2DEx.cpp">
+      <Filter>pxShape\GDI</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeFactory.cpp">
+      <Filter>pxShape</Filter>
+    </ClCompile>
+    <ClCompile Include="flxArray.cpp" />
+    <ClCompile Include="px2DGeometry.cpp">
+      <Filter>pxShape</Filter>
+    </ClCompile>
+    <ClCompile Include="pnEditorCanvas.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pxFileIOStream.cpp" />
+    <ClCompile Include=".\pxShapeIOStream.cpp" />
+    <ClCompile Include="pnToolBox.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pnUndoRedo.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pnEditorChildFrame.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapePool.cpp">
+      <Filter>MVC</Filter>
+    </ClCompile>
+    <ClCompile Include="pxMemIOStream.cpp" />
+    <ClCompile Include="rc.cpp">
+      <Filter>resource</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeAnimator.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeEllipse.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeGroup.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeImg.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeRect.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeText.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include=".\pxShapeArc.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeBezier.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeConnectedLines.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapeLineSec.cpp">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="pxShapePropery.cpp">
+      <Filter>pxShapeProperty</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include=".\pnEditorFrame.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxDef.h">
+      <Filter>pxShape</Filter>
+    </ClInclude>
+    <ClInclude Include=".\precomp.h" />
+    <ClInclude Include="pnShapeModel.h">
+      <Filter>MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="pnShapeView.h">
+      <Filter>MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="pnShapeEditorModel.h">
+      <Filter>MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="pnShapeEditorView.h">
+      <Filter>MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityBus.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityConductor.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilitySwitchBase.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityBreaker.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityDisconnector.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityLoadSwitch.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityBase.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityACLine.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pxPowerUtilityTransformer.h">
+      <Filter>pxShape\pxPowerUtilityShape</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeBase.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxCanvas.h">
+      <Filter>pxShape\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxCanvasWx2D.h">
+      <Filter>pxShape\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxAdapter.h">
+      <Filter>pxShape\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeFactory.h">
+      <Filter>pxShape</Filter>
+    </ClInclude>
+    <ClInclude Include="flxPool.h" />
+    <ClInclude Include="px2DGeometry.h">
+      <Filter>pxShape</Filter>
+    </ClInclude>
+    <ClInclude Include="pnEditorCanvas.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pxFileIOStream.h" />
+    <ClInclude Include=".\pxShapeIOStream.h" />
+    <ClInclude Include="pxMemIOStream.h" />
+    <ClInclude Include="pnToolBox.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pnUndoRedo.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxCanvasWx2DEx.h">
+      <Filter>pxShape\GDI</Filter>
+    </ClInclude>
+    <ClInclude Include="pnEditorChildFrame.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pnEditorControlID.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapePool.h">
+      <Filter>MVC</Filter>
+    </ClInclude>
+    <ClInclude Include="rc.h">
+      <Filter>resource</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeAnimator.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeEllipse.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeGroup.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeImg.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeRect.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeText.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include=".\pxShapeArc.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeBezier.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeConnectedLines.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapeLineSec.h">
+      <Filter>pxShape\pxShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="pxShapePropery.h">
+      <Filter>pxShapeProperty</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
