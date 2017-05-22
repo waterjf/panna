@@ -25,9 +25,11 @@ bld/
 [Oo]bj/
 [Ll]og/
 
-#Visual Studio idb/ilog files
+#Visual Studio idb/ilog/filters files
 *.idb
 *.tlog
+*.exe
+*.filters
 
 # Visual Studio 2015 cache/options directory
 .vs/
